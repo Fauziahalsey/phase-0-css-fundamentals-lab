@@ -2,13 +2,15 @@ body {
   width: 100%;
   height: 100%;
   margin: 0;
+  text-align: center;
+
 }
 .p{
   width: 800px;
 }
-#details div{
+#details {
   float: left;
-  background-color: blue;
+  background-color: red;
   text-align: center;
   width: 25%;
 }
@@ -16,3 +18,28 @@ body {
   justify-content: center;
   
 }
+
+
+#featured-property p { 
+  width: 50%; 
+  text-align: center; 
+  margin-left: 25%; } 
+  
+  nav a{ 
+    background-color: antiquewhite; }
+
+#details { float: left; 
+  overflow: hidden; 
+  display: inline;
+   background-color: red; 
+   width: 100%;
+}
+
+#details div{ 
+  display: inline-block; 
+  width: 20%; }
+
+
+
+
+
